@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <DuckovPath>E:\Program Files (x86)\Steam\steamapps\common\Escape from Duckov</DuckovPath>
+    <SubPath>\Duckov_Data\Managed\</SubPath>
+  </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="$(DuckovPath)$(SubPath)TeamSoda.*"/>
+        <Reference Include="$(DuckovPath)$(SubPath)ItemStatsSystem.dll"/>
+        <Reference Include="$(DuckovPath)$(SubPath)Unity*"/>
+        <!-- Add UniTask reference from game Managed folder -->
+        <Reference Include="$(DuckovPath)$(SubPath)UniTask.dll"/>
+		<Reference Include="0Harmony">
+      <HintPath>.\lib\0Harmony.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+        <Reference Include="SodaLocalization">
+      <HintPath>.\lib\SodaLocalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+        <Reference Include="Newtonsoft.Json">
+      <HintPath>.\lib\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    </ItemGroup>
+
+</Project>

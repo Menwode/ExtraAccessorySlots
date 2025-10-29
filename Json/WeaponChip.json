@@ -1,0 +1,30 @@
+{
+  "OriginalItemId": 275,
+  "NewItemId": 800555,
+  "DisplayName": "武器芯片",
+  "LocalizationKey": "WeaponChip",
+  "LocalizationDescValue": "武器芯片",
+  "Weight": 0.1,
+  "Value": 1000,
+  "Quality": 5,
+  "Tags": [
+    "WeaponChip",
+    "Accessory"
+  ],
+  "LocalizationDesc": "_WeaponChip",
+  "AccessoryProperties": {
+    "Damage": 0.1,
+    "CritRate": 0.05,
+    "CritDamageFactor": 0.5,
+    "ADSTime": -0.1,
+    "ADSAimDistanceFactor": 0.1,
+    "ScatterFactorADS": -0.1,
+    "MaxScatterADS": -0.1,
+    "ScatterRecoverADS": -0.1,
+    "AttackSpeed": 0.15,
+    "BulletSpeed": 0.15,
+    "ArmorPiercing": 0.1,
+    "Capacity": 100,
+    "MoveSpeedMultiplier": 1
+  }
+}
